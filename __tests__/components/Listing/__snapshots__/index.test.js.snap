@@ -1,0 +1,394 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filters should render as expected  1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="utility-bar"
+  >
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder="Search for restaurants"
+      type="search"
+      value=""
+    />
+    <div
+      className="select-box"
+    >
+      <label
+        className="label"
+      >
+        Sort by
+      </label>
+      <div
+        className="select-wrapper"
+      >
+        <select
+          className="select"
+          onChange={[Function]}
+        >
+          <option
+            key="0bestMatch"
+            label="Best match​"
+            value="bestMatch"
+          />
+          <option
+            key="1newest"
+            label="Newest"
+            value="newest"
+          />
+          <option
+            key="2ratingAverage"
+            label="Rating average"
+            value="ratingAverage"
+          />
+          <option
+            key="3distance"
+            label="Distance"
+            value="distance"
+          />
+          <option
+            key="4popularity"
+            label="Popularity"
+            value="popularity"
+          />
+          <option
+            key="5averageProductPrice"
+            label="Average product price"
+            value="averageProductPrice"
+          />
+          <option
+            key="6deliveryCosts"
+            label="Delivery costs"
+            value="deliveryCosts"
+          />
+          <option
+            key="7minCost"
+            label="Minimum Costs"
+            value="minCost"
+          />
+          <option
+            key="8topRestaurants"
+            label="Top restaurants"
+            value="topRestaurants"
+          />
+        </select>
+      </div>
+    </div>
+  </div>
+  <Items
+    handleClickFavorite={[Function]}
+    items={
+      Array [
+        Object {
+          "isFavorite": 0,
+          "name": "Tanoshii Sushi",
+          "sortingValues": Object {
+            "averageProductPrice": 1536,
+            "bestMatch": 0,
+            "deliveryCosts": 200,
+            "distance": 1190,
+            "minCost": 1000,
+            "newest": 96,
+            "popularity": 17,
+            "ratingAverage": 4.5,
+            "topRestaurants": 21766,
+          },
+          "status": "open",
+        },
+        Object {
+          "isFavorite": 0,
+          "name": "Sushi One",
+          "sortingValues": Object {
+            "averageProductPrice": 1285,
+            "bestMatch": 3,
+            "deliveryCosts": 0,
+            "distance": 1618,
+            "minCost": 1200,
+            "newest": 238,
+            "popularity": 23,
+            "ratingAverage": 4,
+            "topRestaurants": 38499,
+          },
+          "status": "open",
+        },
+        Object {
+          "isFavorite": 0,
+          "name": "Roti Shop",
+          "sortingValues": Object {
+            "averageProductPrice": 915,
+            "bestMatch": 4,
+            "deliveryCosts": 0,
+            "distance": 2308,
+            "minCost": 2000,
+            "newest": 247,
+            "popularity": 81,
+            "ratingAverage": 4.5,
+            "topRestaurants": 187863,
+          },
+          "status": "open",
+        },
+        Object {
+          "isFavorite": 0,
+          "name": "Aarti 2",
+          "sortingValues": Object {
+            "averageProductPrice": 922,
+            "bestMatch": 5,
+            "deliveryCosts": 250,
+            "distance": 1605,
+            "minCost": 500,
+            "newest": 153,
+            "popularity": 44,
+            "ratingAverage": 4.5,
+            "topRestaurants": 71542,
+          },
+          "status": "open",
+        },
+        Object {
+          "isFavorite": 0,
+          "name": "Indian Kitchen",
+          "sortingValues": Object {
+            "averageProductPrice": 1189,
+            "bestMatch": 11,
+            "deliveryCosts": 150,
+            "distance": 2308,
+            "minCost": 1300,
+            "newest": 272,
+            "popularity": 5,
+            "ratingAverage": 4.5,
+            "topRestaurants": 12729,
+          },
+          "status": "open",
+        },
+        Object {
+          "isFavorite": 0,
+          "name": "CIRO 1939",
+          "sortingValues": Object {
+            "averageProductPrice": 1762,
+            "bestMatch": 12,
+            "deliveryCosts": 99,
+            "distance": 3957,
+            "minCost": 1300,
+            "newest": 231,
+            "popularity": 79,
+            "ratingAverage": 4.5,
+            "topRestaurants": 314365,
+          },
+          "status": "open",
+        },
+        Object {
+          "isFavorite": 0,
+          "name": "De Amsterdamsche Tram",
+          "sortingValues": Object {
+            "averageProductPrice": 892,
+            "bestMatch": 304,
+            "deliveryCosts": 0,
+            "distance": 2792,
+            "minCost": 0,
+            "newest": 131,
+            "popularity": 0,
+            "ratingAverage": 0,
+            "topRestaurants": 892,
+          },
+          "status": "open",
+        },
+        Object {
+          "isFavorite": 0,
+          "name": "Lunchpakketdienst",
+          "sortingValues": Object {
+            "averageProductPrice": 4465,
+            "bestMatch": 306,
+            "deliveryCosts": 500,
+            "distance": 14201,
+            "minCost": 5000,
+            "newest": 259,
+            "popularity": 0,
+            "ratingAverage": 3.5,
+            "topRestaurants": 4465,
+          },
+          "status": "open",
+        },
+        Object {
+          "isFavorite": 0,
+          "name": "Royal Thai",
+          "sortingValues": Object {
+            "averageProductPrice": 1492,
+            "bestMatch": 2,
+            "deliveryCosts": 150,
+            "distance": 2639,
+            "minCost": 2500,
+            "newest": 133,
+            "popularity": 44,
+            "ratingAverage": 4.5,
+            "topRestaurants": 117608,
+          },
+          "status": "order ahead",
+        },
+        Object {
+          "isFavorite": 0,
+          "name": "Pizza Heart",
+          "sortingValues": Object {
+            "averageProductPrice": 1103,
+            "bestMatch": 6,
+            "deliveryCosts": 150,
+            "distance": 2453,
+            "minCost": 1500,
+            "newest": 118,
+            "popularity": 9,
+            "ratingAverage": 4,
+            "topRestaurants": 23180,
+          },
+          "status": "order ahead",
+        },
+        Object {
+          "isFavorite": 0,
+          "name": "Mama Mia",
+          "sortingValues": Object {
+            "averageProductPrice": 912,
+            "bestMatch": 7,
+            "deliveryCosts": 0,
+            "distance": 1396,
+            "minCost": 1000,
+            "newest": 250,
+            "popularity": 6,
+            "ratingAverage": 4,
+            "topRestaurants": 9288,
+          },
+          "status": "order ahead",
+        },
+        Object {
+          "isFavorite": 0,
+          "name": "Feelfood",
+          "sortingValues": Object {
+            "averageProductPrice": 902,
+            "bestMatch": 8,
+            "deliveryCosts": 150,
+            "distance": 2732,
+            "minCost": 1500,
+            "newest": 163,
+            "popularity": 31,
+            "ratingAverage": 4.5,
+            "topRestaurants": 85594,
+          },
+          "status": "order ahead",
+        },
+        Object {
+          "isFavorite": 0,
+          "name": "Fes Patisserie",
+          "sortingValues": Object {
+            "averageProductPrice": 1214,
+            "bestMatch": 14,
+            "deliveryCosts": 150,
+            "distance": 2302,
+            "minCost": 1250,
+            "newest": 77,
+            "popularity": 3,
+            "ratingAverage": 4,
+            "topRestaurants": 8120,
+          },
+          "status": "order ahead",
+        },
+        Object {
+          "isFavorite": 0,
+          "name": "Yvonne's Vispaleis",
+          "sortingValues": Object {
+            "averageProductPrice": 2557,
+            "bestMatch": 15,
+            "deliveryCosts": 150,
+            "distance": 2909,
+            "minCost": 1750,
+            "newest": 150,
+            "popularity": 3,
+            "ratingAverage": 5,
+            "topRestaurants": 11284,
+          },
+          "status": "order ahead",
+        },
+        Object {
+          "isFavorite": 0,
+          "name": "Lale Restaurant & Snackbar",
+          "sortingValues": Object {
+            "averageProductPrice": 838,
+            "bestMatch": 305,
+            "deliveryCosts": 0,
+            "distance": 2880,
+            "minCost": 0,
+            "newest": 73,
+            "popularity": 0,
+            "ratingAverage": 0,
+            "topRestaurants": 838,
+          },
+          "status": "order ahead",
+        },
+        Object {
+          "isFavorite": 0,
+          "name": "Tandoori Express",
+          "sortingValues": Object {
+            "averageProductPrice": 1146,
+            "bestMatch": 1,
+            "deliveryCosts": 150,
+            "distance": 2308,
+            "minCost": 1300,
+            "newest": 266,
+            "popularity": 123,
+            "ratingAverage": 4.5,
+            "topRestaurants": 285030,
+          },
+          "status": "closed",
+        },
+        Object {
+          "isFavorite": 0,
+          "name": "Daily Sushi",
+          "sortingValues": Object {
+            "averageProductPrice": 1327,
+            "bestMatch": 9,
+            "deliveryCosts": 200,
+            "distance": 1911,
+            "minCost": 1000,
+            "newest": 221,
+            "popularity": 6,
+            "ratingAverage": 4,
+            "topRestaurants": 12793,
+          },
+          "status": "closed",
+        },
+        Object {
+          "isFavorite": 0,
+          "name": "Pamukkale",
+          "sortingValues": Object {
+            "averageProductPrice": 968,
+            "bestMatch": 10,
+            "deliveryCosts": 0,
+            "distance": 2353,
+            "minCost": 2000,
+            "newest": 201,
+            "popularity": 25,
+            "ratingAverage": 4,
+            "topRestaurants": 59793,
+          },
+          "status": "closed",
+        },
+        Object {
+          "isFavorite": 0,
+          "name": "Zenzai Sushi",
+          "sortingValues": Object {
+            "averageProductPrice": 1579,
+            "bestMatch": 13,
+            "deliveryCosts": 0,
+            "distance": 2911,
+            "minCost": 2000,
+            "newest": 155,
+            "popularity": 36,
+            "ratingAverage": 4,
+            "topRestaurants": 106375,
+          },
+          "status": "closed",
+        },
+      ]
+    }
+    sortByFavorite={Array []}
+  />
+</div>
+`;

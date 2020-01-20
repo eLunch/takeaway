@@ -1,0 +1,101 @@
+.item {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #ebebeb;
+    cursor: pointer;
+    margin: 16px 0;
+    min-height: 120px;
+    overflow: hidden;
+
+    &:hover {
+        background-color: #edf5f4;
+    }
+
+    & .item-photo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid #ebebeb;
+        padding: 8px 15px;
+        min-width: 136px;
+
+        & .image {
+            width: 100px;
+            height: 100px;
+        }
+
+        & .rating {
+            font-size: 12px;
+            margin-top: 8px;
+
+            & > span {
+                padding-left: 5px;
+            }
+        }
+    }
+
+    & .item-info {
+        font-size: 16px;
+        padding: 16px;
+
+        & .name {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22px;
+        }
+    
+        & .icon-favorite {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            width: 16px;
+            height: 16px;
+        }
+
+        & .status {
+            padding: 8px 0 16px;
+            font-size: 12px;
+
+            & span {
+                padding-left: 4px;
+            }
+        }
+
+        & .sub-info {
+            display: flex;
+            padding-top: 16px;
+            font-size: 12px;
+            color: #999;
+
+            & .pictogram {
+                display: flex; 
+                justify-content: flex-end;
+                align-items: flex-end;
+                padding-right: 16px;
+
+                & img {
+                    padding-right: 4px;
+                }
+            }
+        }
+
+        & .icon {
+            width: 12px;
+
+            &-distance {
+                height: 14px;
+            }
+        }
+
+        & .table-extra-info{
+            font-size: 12px;
+            color: #999;
+            border-spacing: 0;
+        }
+
+    }
+}
