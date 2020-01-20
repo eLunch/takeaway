@@ -51,6 +51,9 @@ const Listing = () => {
 
         setRestaurantsList([...results]);
     }, [sortByFavorite]);
+
+    // console.log(sortByFavorite, searchValue, sortByField);
+
     return (
         <div className="wrapper">
             <div className="utility-bar">
@@ -64,7 +67,7 @@ const Listing = () => {
                 <div className="select-box">
                     <label className="label">Sort by</label>
                     <div className="select-wrapper">
-                        <select onChange={handleChangeSelect} className="select">
+                        <select onChange={handleChangeSelect} className="select" value={sortByField}>
                             {SORT_LIST.map((item, key) => {
                                 return (
                                     <option

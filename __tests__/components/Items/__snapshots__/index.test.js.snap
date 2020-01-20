@@ -1,0 +1,3121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filters should render as expected  1`] = `
+<div
+  className="lists"
+>
+  <div
+    className="item"
+    key="0"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={4.5}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          4.5
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        Tanoshii Sushi
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#10d365"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#10d365",
+            }
+          }
+        >
+          Open
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              0
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              96
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              17
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              1536
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          1.2
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          € 2
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        >
+          <div>
+            <img
+              alt="Costs Image"
+              className="icon icon-costs"
+              src={null}
+            />
+            € 
+            10
+             
+          </div>
+        </div>
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+    key="1"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={4.5}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          4.5
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        Tandoori Express
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#ff4246"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#ff4246",
+            }
+          }
+        >
+          Closed
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              1
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              266
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              123
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              1146
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          2.3
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          € 1.5
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        >
+          <div>
+            <img
+              alt="Costs Image"
+              className="icon icon-costs"
+              src={null}
+            />
+            € 
+            13
+             
+          </div>
+        </div>
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+    key="2"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={4.5}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          4.5
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        Royal Thai
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#10d365"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#10d365",
+            }
+          }
+        >
+          Order ahead
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              2
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              133
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              44
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              1492
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          2.6
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          € 1.5
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        >
+          <div>
+            <img
+              alt="Costs Image"
+              className="icon icon-costs"
+              src={null}
+            />
+            € 
+            25
+             
+          </div>
+        </div>
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+    key="3"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={4}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          4
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        Sushi One
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#10d365"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#10d365",
+            }
+          }
+        >
+          Open
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              3
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              238
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              23
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              1285
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          1.6
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          FREE
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        >
+          <div>
+            <img
+              alt="Costs Image"
+              className="icon icon-costs"
+              src={null}
+            />
+            € 
+            12
+             
+          </div>
+        </div>
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+    key="4"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={4.5}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          4.5
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        Roti Shop
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#10d365"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#10d365",
+            }
+          }
+        >
+          Open
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              4
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              247
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              81
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              915
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          2.3
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          FREE
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        >
+          <div>
+            <img
+              alt="Costs Image"
+              className="icon icon-costs"
+              src={null}
+            />
+            € 
+            20
+             
+          </div>
+        </div>
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+    key="5"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={4.5}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          4.5
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        Aarti 2
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#10d365"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#10d365",
+            }
+          }
+        >
+          Open
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              5
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              153
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              44
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              922
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          1.6
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          € 2.5
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        >
+          <div>
+            <img
+              alt="Costs Image"
+              className="icon icon-costs"
+              src={null}
+            />
+            € 
+            5
+             
+          </div>
+        </div>
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+    key="6"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={4}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          4
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        Pizza Heart
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#10d365"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#10d365",
+            }
+          }
+        >
+          Order ahead
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              6
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              118
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              9
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              1103
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          2.5
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          € 1.5
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        >
+          <div>
+            <img
+              alt="Costs Image"
+              className="icon icon-costs"
+              src={null}
+            />
+            € 
+            15
+             
+          </div>
+        </div>
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+    key="7"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={4}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          4
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        Mama Mia
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#10d365"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#10d365",
+            }
+          }
+        >
+          Order ahead
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              7
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              250
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              6
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              912
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          1.4
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          FREE
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        >
+          <div>
+            <img
+              alt="Costs Image"
+              className="icon icon-costs"
+              src={null}
+            />
+            € 
+            10
+             
+          </div>
+        </div>
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+    key="8"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={4.5}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          4.5
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        Feelfood
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#10d365"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#10d365",
+            }
+          }
+        >
+          Order ahead
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              8
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              163
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              31
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              902
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          2.7
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          € 1.5
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        >
+          <div>
+            <img
+              alt="Costs Image"
+              className="icon icon-costs"
+              src={null}
+            />
+            € 
+            15
+             
+          </div>
+        </div>
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+    key="9"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={4}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          4
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        Daily Sushi
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#ff4246"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#ff4246",
+            }
+          }
+        >
+          Closed
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              9
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              221
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              6
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              1327
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          1.9
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          € 2
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        >
+          <div>
+            <img
+              alt="Costs Image"
+              className="icon icon-costs"
+              src={null}
+            />
+            € 
+            10
+             
+          </div>
+        </div>
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+    key="10"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={4}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          4
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        Pamukkale
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#ff4246"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#ff4246",
+            }
+          }
+        >
+          Closed
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              10
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              201
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              25
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              968
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          2.4
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          FREE
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        >
+          <div>
+            <img
+              alt="Costs Image"
+              className="icon icon-costs"
+              src={null}
+            />
+            € 
+            20
+             
+          </div>
+        </div>
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+    key="11"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={4.5}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          4.5
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        Indian Kitchen
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#10d365"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#10d365",
+            }
+          }
+        >
+          Open
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              11
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              272
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              5
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              1189
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          2.3
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          € 1.5
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        >
+          <div>
+            <img
+              alt="Costs Image"
+              className="icon icon-costs"
+              src={null}
+            />
+            € 
+            13
+             
+          </div>
+        </div>
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+    key="12"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={4.5}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          4.5
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        CIRO 1939
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#10d365"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#10d365",
+            }
+          }
+        >
+          Open
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              12
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              231
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              79
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              1762
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          4
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          € 0.99
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        >
+          <div>
+            <img
+              alt="Costs Image"
+              className="icon icon-costs"
+              src={null}
+            />
+            € 
+            13
+             
+          </div>
+        </div>
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+    key="13"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={4}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          4
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        Zenzai Sushi
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#ff4246"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#ff4246",
+            }
+          }
+        >
+          Closed
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              13
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              155
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              36
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              1579
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          2.9
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          FREE
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        >
+          <div>
+            <img
+              alt="Costs Image"
+              className="icon icon-costs"
+              src={null}
+            />
+            € 
+            20
+             
+          </div>
+        </div>
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+    key="14"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={4}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          4
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        Fes Patisserie
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#10d365"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#10d365",
+            }
+          }
+        >
+          Order ahead
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              14
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              77
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              3
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              1214
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          2.3
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          € 1.5
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        >
+          <div>
+            <img
+              alt="Costs Image"
+              className="icon icon-costs"
+              src={null}
+            />
+            € 
+            12.5
+             
+          </div>
+        </div>
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+    key="15"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={5}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          5
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        Yvonne's Vispaleis
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#10d365"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#10d365",
+            }
+          }
+        >
+          Order ahead
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              15
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              150
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              3
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              2557
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          2.9
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          € 1.5
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        >
+          <div>
+            <img
+              alt="Costs Image"
+              className="icon icon-costs"
+              src={null}
+            />
+            € 
+            17.5
+             
+          </div>
+        </div>
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+    key="16"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={0}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          0
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        De Amsterdamsche Tram
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#10d365"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#10d365",
+            }
+          }
+        >
+          Open
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              304
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              131
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              0
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              892
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          2.8
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          FREE
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        />
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+    key="17"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={0}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          0
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        Lale Restaurant & Snackbar
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#10d365"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#10d365",
+            }
+          }
+        >
+          Order ahead
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              305
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              73
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              0
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              838
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          2.9
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          FREE
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        />
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+    key="18"
+  >
+    <div
+      className="item-photo"
+    >
+      <img
+        alt="Cafe Image"
+        className="image"
+        src={null}
+      />
+      <div
+        className="rating"
+      >
+        <StarRatings
+          changeRating={null}
+          gradientPathName=""
+          ignoreInlineStyles={false}
+          name="rating"
+          numberOfStars={5}
+          rating={3.5}
+          starDimension="15px"
+          starEmptyColor="rgb(203, 211, 227)"
+          starHoverColor="rgb(230, 67, 47)"
+          starRatedColor="#ff8000"
+          starSpacing="0"
+          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+          svgIconViewBox="0 0 51 48"
+          typeOfWidget="Star"
+        />
+        <span>
+          (
+          3.5
+          )
+        </span>
+      </div>
+    </div>
+    <div
+      className="item-info"
+    >
+      <div
+        className="name"
+      >
+        Lunchpakketdienst
+      </div>
+      <div
+        className="status"
+      >
+        <svg
+          fill="#10d365"
+          height="12px"
+          id="Livello_1"
+          version="1.1"
+          viewBox="0 0 141.732 141.732"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Livello_5"
+          >
+            <path
+              d="M113.326,70.191c0-2.97-2.377-5.376-5.307-5.376H75.543V32.387v-0.001c0-2.98-2.418-5.397-5.396-5.397   c-2.98,0-5.398,2.417-5.398,5.397V70.17c0,2.981,2.418,5.398,5.398,5.398h37.875C110.949,75.568,113.326,73.161,113.326,70.191    M129.533,70.157c0,32.798-26.584,59.386-59.375,59.386c-32.793,0-59.375-26.588-59.375-59.386s26.582-59.386,59.375-59.386   C102.949,10.771,129.533,37.359,129.533,70.157 M140.314,70.157C140.314,31.41,108.904,0,70.158,0C31.41,0,0,31.41,0,70.157   s31.41,70.157,70.158,70.157C108.904,140.314,140.314,108.904,140.314,70.157"
+            />
+          </g>
+        </svg>
+        <span
+          style={
+            Object {
+              "color": "#10d365",
+            }
+          }
+        >
+          Open
+        </span>
+      </div>
+      <table
+        className="table-extra-info"
+      >
+        <tbody>
+          <tr>
+            <td>
+              Best match: 
+            </td>
+            <td>
+              306
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Newest: 
+            </td>
+            <td>
+              259
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Popularity: 
+            </td>
+            <td>
+              0
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Average price: 
+            </td>
+            <td>
+              4465
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        className="sub-info"
+      >
+        <div
+          className="pictogram pictogram-distance"
+        >
+          <img
+            alt="Distance Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          14.2
+          km
+        </div>
+        <div
+          className="pictogram pictogram-deliveryCosts"
+        >
+          <img
+            alt="Delivery Image"
+            className="icon icon-distance"
+            src={null}
+          />
+          € 5
+        </div>
+        <div
+          className="pictogram pictogram-costs"
+        >
+          <div>
+            <img
+              alt="Costs Image"
+              className="icon icon-costs"
+              src={null}
+            />
+            € 
+            50
+             
+          </div>
+        </div>
+        <a
+          className="icon-link"
+          onClick={[Function]}
+        >
+          <img
+            alt="Favorite Image"
+            className="icon-favorite"
+            src={null}
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

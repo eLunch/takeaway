@@ -20,7 +20,7 @@ const Items = ({ items, sortByFavorite, handleClickFavorite }) => {
                 return (
                     <div key={key} className="item">
                         <div className="item-photo">
-                            <img src={"../../assets/image/cafe.png"} alt="Cafe Image" className="image" />
+                            <img src={cafeIcon} alt="Cafe Image" className="image" />
                             <div className="rating">
                                 <StarRatings
                                     rating={item.sortingValues.ratingAverage}
@@ -81,13 +81,13 @@ const Items = ({ items, sortByFavorite, handleClickFavorite }) => {
                                          : null
                                     }
                                 </div>
-                                <div className="icon-box" onClick={() => handleClickFavorite(item.name)}>
+                                <a className="icon-link" onClick={() => handleClickFavorite(item.name)}>
                                     {
                                         sortByFavorite.includes(item.name) ?
-                                        <img src={favoriteFull} alt="Favorite full Image" className="icon-favorite" /> :
+                                        <img src={favoriteFull} alt="Favorite full Image" className="icon-favorite favorite-full" /> :
                                         <img src={favorite} alt="Favorite Image" className="icon-favorite" />
                                     }
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>

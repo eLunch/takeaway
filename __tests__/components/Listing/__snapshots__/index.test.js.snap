@@ -28,6 +28,7 @@ exports[`Filters should render as expected  1`] = `
         <select
           className="select"
           onChange={[Function]}
+          value="bestMatch"
         >
           <option
             key="0bestMatch"

@@ -3,12 +3,33 @@ import { shallow } from 'enzyme';
 
 import Listing from '../../../src/components/Listing';
 
+const component = shallow(<Listing />);
+
 describe('Filters', () => {
     it('should render as expected ', () => {
-        const component = shallow(
-            <Listing />
-        );
-    
+
+        // Assert
         expect(component).toMatchSnapshot();
+        
+    });
+
+    it('should change search input', () => {
+
+        // Act
+        component.find('input').simulate('change', {target: {value: 'Test'}});
+
+        // Assert
+        expect(component.find('input').prop('value')).toBe('Test');
+
+    });
+
+    it('should change sort select', () => {
+
+        // Act
+        component.find('select').simulate('change', {target: {value: 'Newest'}});
+
+        // Assert
+        expect(component.find('select').prop('value')).toBe('Newest');
+
     });
 });
