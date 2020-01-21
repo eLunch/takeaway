@@ -7,7 +7,6 @@ import favoriteFull from '../../assets/image/favorite-full.svg';
 import cafeIcon from '../../assets/image/cafe.png';
 import distance from '../../assets/image/location.svg';
 import delivery from '../../assets/image/delivery.svg';
-import time from '../../assets/image/time.svg';
 import costs from '../../assets/image/costs.svg';
 import { priceFormat, distanceFormat, capitalize } from '../../helpers';
 

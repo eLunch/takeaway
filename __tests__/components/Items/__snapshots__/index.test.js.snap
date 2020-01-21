@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Filters should render as expected  1`] = `
+exports[`Items should render as expected  1`] = `
 <div
   className="lists"
 >

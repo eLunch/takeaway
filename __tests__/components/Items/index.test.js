@@ -11,7 +11,7 @@ const props = {
 }
 const component = shallow(<Items {...props} />);
 
-describe('Filters', () => {
+describe('Items', () => {
     it('should render as expected ', () => {
 
         // Assert

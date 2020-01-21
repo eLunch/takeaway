@@ -6,14 +6,24 @@ body {
     background-color: #ffffff;
     font-size: 1em;
     line-height: 1;
+    margin: 0;
     overflow-x: hidden;
+}
+
+.header {
+    background-color: #ff8000;
+    padding: 17px;
+
+    & > img {
+        height: 28px;
+    }
 }
 
 .wrapper {
     max-width: 800px;
     min-width: 480px;
     margin: 0 auto;
-    padding: 20px 1.25%;
+    padding: 20px 10px;
 }
 
 @media screen and (min-width: 768px) {

@@ -52,8 +52,6 @@ const Listing = () => {
         setRestaurantsList([...results]);
     }, [sortByFavorite]);
 
-    // console.log(sortByFavorite, searchValue, sortByField);
-
     return (
         <div className="wrapper">
             <div className="utility-bar">
