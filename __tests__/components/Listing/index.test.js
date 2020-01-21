@@ -5,13 +5,7 @@ import Listing from '../../../src/components/Listing';
 
 const component = shallow(<Listing />);
 
-describe('Filters', () => {
-    it('should render as expected ', () => {
-
-        // Assert
-        expect(component).toMatchSnapshot();
-        
-    });
+describe('Listing', () => {
 
     it('should change search input', () => {
 

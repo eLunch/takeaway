@@ -1,5 +1,5 @@
 module.exports = {
-    moduleFileExtensions: ["js", "jsx", "json", "node"],
+    moduleFileExtensions: ["js", "jsx", "json"],
     moduleNameMapper: {
         "\\.(css|scss|svg|png)$": "identity-obj-proxy",
     },
@@ -8,7 +8,6 @@ module.exports = {
           diagnostics: false
         }
       },
-    // resolver: "jest-webpack-resolver",
     setupFilesAfterEnv: ["./__tests__/setupEnzyme.js"],
     snapshotSerializers: ["enzyme-to-json/serializer"],
     testMatch: ["**/?(*.)(spec|test).js?(x)"],
