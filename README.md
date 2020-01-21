@@ -20,7 +20,7 @@ npm start
 
 ## Start tests
 ``` sh 
-npm test -- -u
+npm test
 ```
 
 ## Task
