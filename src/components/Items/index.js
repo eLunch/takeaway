@@ -19,7 +19,7 @@ const Items = ({ items, sortByFavorite, handleClickFavorite }) => {
                 return (
                     <div key={key} className="item">
                         <div className="item-photo">
-                            <img src={cafeIcon} alt="Cafe Image" className="image" />
+                            <img src={cafeIcon} alt="Cafe image" className="image" />
                             <div className="rating">
                                 <StarRatings
                                     rating={item.sortingValues.ratingAverage}

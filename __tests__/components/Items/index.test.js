@@ -12,13 +12,6 @@ const props = {
 const component = shallow(<Items {...props} />);
 
 describe('Items', () => {
-    it('should render as expected ', () => {
-
-        // Assert
-        expect(component).toMatchSnapshot();
-        
-    });
-
     it('should call handleClickFavorite', () => {
 
         // Act
