@@ -60,6 +60,10 @@ const Items = ({ items, sortByFavorite, handleClickFavorite }) => {
                                         <td>Average price: </td>
                                         <td>{item.sortingValues.averageProductPrice}</td>
                                     </tr>
+                                    <tr>
+                                        <td>Top Reastaraunt</td>
+                                        <td>{item.sortingValues.topRestaurants}</td>
+                                    </tr>
                                 </tbody>
                             </table>
                             <div className="sub-info">

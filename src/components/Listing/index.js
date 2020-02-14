@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { SORT_LIST } from '../../constants';
 import data from '../../assets/data';
 import { sortingByField, defaultSorting } from '../../helpers';
@@ -21,18 +21,17 @@ const Listing = () => {
     useEffect(() => {
         let results = data.restaurants.filter(item => item.name.toLowerCase().includes(searchValue));
 
-        setRestaurantsList(defaultSorting([...results]));
+        setRestaurantsList(defaultSorting(results));
     }, [searchValue]);
 
     // Sorting by Select
     const handleChangeSelect = event => {
-        setSortByValue(event.target.value)
+        return setSortByValue(event.target.value)
     };
+    const sortingMagic = sortingByField(restaurantsList, sortByField, sortByFavorite);
     useEffect(() => {
-        let results = sortingByField(restaurantsList, sortByField, sortByFavorite);
-
-        setRestaurantsList([...results]);
-    }, [sortByField]);
+        setRestaurantsList(sortingMagic);
+    }, [restaurantsList]);
 
     // Sorting by Favorite
     const handleClickFavorite = name => {
@@ -40,16 +39,15 @@ const Listing = () => {
         setSortByFavorite(sortByFavorite.concat([name])) :
         setSortByFavorite(sortByFavorite.filter(item => item !== name));
     };
-    useEffect(() => {
-        restaurantsList.map((item) => {
-            sortByFavorite.includes(item.name) ?
-                (item.isFavorite = 1) :
-                (item.isFavorite = 0)
-        });
-
-        let results = defaultSorting(restaurantsList, sortByFavorite);
-
-        setRestaurantsList([...results]);
+    const makeFavorite = restaurantsList.map((item) => {
+        sortByFavorite.includes(item.name) ?
+        (item.isFavorite = 1) :
+        (item.isFavorite = 0)
+        return item;
+    });
+    const favoriteSorting = defaultSorting(makeFavorite, sortByFavorite);
+    useMemo(() => {
+        setRestaurantsList(favoriteSorting);
     }, [sortByFavorite]);
 
     return (
@@ -72,7 +70,7 @@ const Listing = () => {
                                         value={item.value}
                                         label={item.label}
                                         key={key + item.value}
-                                    />
+                                    >{item.label}</option>
                                 );
                             })}
                         </select>

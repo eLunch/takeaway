@@ -43,12 +43,16 @@
                 border-radius: 2px;
                 outline: none;
                 -webkit-box-sizing: border-box;
-                -moz-box-sizing: border-box;
                 box-sizing: border-box;
                 appearance: none;
                 -webkit-appearance: none;
                 font-size: 14px;
                 padding: 7px 30px 7px 16px;
+
+                &:-moz-focusring {
+                    color: transparent;
+                    text-shadow: 0 0 0 #000;
+                }
             }
 
             &:after {
@@ -61,7 +65,7 @@
                 margin-top:-4px;
                 z-index: 2;
                 background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 12'%3E%3Cpolygon fill='rgb(102,102,102)' points='8,12 0,0 16,0'/%3E%3C/svg%3E") 0 0 no-repeat;  
-                pointer-events:none;
+                pointer-events: none;
             }
         }
     }
